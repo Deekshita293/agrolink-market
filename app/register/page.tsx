@@ -127,7 +127,7 @@ export default function RegisterPage() {
                 required
               />
             </div>
-
+            { /*
             <div className="space-y-2">
               <Label htmlFor="experience">Experience (Optional)</Label>
               <Textarea
@@ -138,7 +138,7 @@ export default function RegisterPage() {
                 rows={3}
               />
             </div>
-
+            */ }
             <div className="grid md:grid-cols-2 gap-4">
               <div className="space-y-2">
                 <Label htmlFor="password">Password</Label>
