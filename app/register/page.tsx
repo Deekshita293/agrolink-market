@@ -23,7 +23,7 @@ export default function RegisterPage() {
     confirmPassword: "",
     role: "",
     location: "",
-    experience: "",
+    
 })
   const router = useRouter()
 
@@ -125,16 +125,6 @@ export default function RegisterPage() {
                 value={formData.location}
                 onChange={(e) => setFormData({ ...formData, location: e.target.value })}
                 required
-              />
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="experience">Experience (Optional)</Label>
-              <Textarea
-                id="experience"
-                placeholder="Tell us about your farming/trading experience..."
-                value={formData.experience}
-                onChange={(e) => setFormData({ ...formData, experience: e.target.value })}
-                rows={3}
               />
             </div>
 
