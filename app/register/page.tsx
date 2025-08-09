@@ -24,7 +24,7 @@ export default function RegisterPage() {
     role: "",
     location: "",
     experience: "",
-  })
+})
   const router = useRouter()
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -127,7 +127,6 @@ export default function RegisterPage() {
                 required
               />
             </div>
-
             <div className="space-y-2">
               <Label htmlFor="experience">Experience (Optional)</Label>
               <Textarea
