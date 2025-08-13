@@ -23,8 +23,8 @@ export default function RegisterPage() {
     confirmPassword: "",
     role: "",
     location: "",
-    experience: "",
-  })
+    
+})
   const router = useRouter()
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -127,6 +127,7 @@ export default function RegisterPage() {
                 required
               />
             </div>
+<<<<<<< HEAD
             { /*
             <div className="space-y-2">
               <Label htmlFor="experience">Experience (Optional)</Label>
@@ -139,6 +140,9 @@ export default function RegisterPage() {
               />
             </div>
             */ }
+=======
+
+>>>>>>> b8974f36564a91756720f111834ee16a9b89a0ab
             <div className="grid md:grid-cols-2 gap-4">
               <div className="space-y-2">
                 <Label htmlFor="password">Password</Label>
